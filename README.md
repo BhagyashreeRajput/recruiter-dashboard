@@ -63,8 +63,8 @@
 - Professional summary, application details grid (8 fields), education panel
 - **Skills grid** — all skills as hover pills
 - **Interview history** — round cards with type, interviewer, italic feedback quote, result badge (Passed/Failed/Pending)
-- **Status update** — native `<select>` + Update button, dispatches `updateCandidateStatus` to Redux ✅ (was broken — `dispatch` was commented out, now fixed)
-- **Notes** — existing notes shown in blue info box, add new note textarea dispatches `addNote` to Redux ✅ (also fixed)
+- **Status update** — native `<select>` + Update button, dispatches `updateCandidateStatus` to Redux 
+- **Notes** — existing notes shown in blue info box, add new note textarea dispatches `addNote` to Redux
 - **Resume preview modal** — custom overlay (no MUI Dialog), full formatted resume layout, click outside to close
 - Resume download link
 - **Toast notification** — slide-up animation, auto-dismisses in 3s, replaces MUI Snackbar
